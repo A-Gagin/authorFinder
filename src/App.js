@@ -7,12 +7,10 @@ function App() {
   const [book, setBook] = useState(null);
 
   return (
-    <div className="App">
-      {/* <input onChange={handleTitleSearch}/>
-      <button onClick={searchAuthors}>Search for Author</button>
-      {result} */}
-      <SearchAuthors setBook={setBook}/>
-      <DisplayAuthor book={book}/>
+    <div className="App" style={{backgroundImage: `url(https://wallpapercave.com/wp/wp4426455.jpg)`}} >
+      
+      <SearchAuthors setBook={setBook}/> <br />
+      <DisplayAuthor book={book}/> <br />
       
     </div>
   );
